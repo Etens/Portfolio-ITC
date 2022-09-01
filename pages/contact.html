@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <head>
+      <title>Contact</title>
+        <link href="file:///C:/Users/ethan/Documents/ITC/PreCourse/Abbou_Ethan_ITCPrecourse/css/style.css" rel="stylesheet" />
+        <ul class="nav-list">
+          <a href="index.html">
+            <img id ="logo-image" src="file:///C:/Users/ethan/Documents/ITC/PreCourse/Abbou_Ethan_ITCPrecourse/images/logo_etens.jpg" alt="logo-image"  class="logo-image"/>
+          </a>
+          <h1>CONTACT</h1>
+          <li class="nav-item">
+            <a class="nav-home" href="file:///C:/Users/ethan/Documents/ITC/PreCourse/Abbou_Ethan_ITCPrecourse/index.html">HOME</a></li>
+          <li class="nav-item">
+            <a href="file:///C:/Users/ethan/Documents/ITC/PreCourse/Abbou_Ethan_ITCPrecourse/pages/about.html">ABOUT</a></li>
+          <li class="nav-item"> 
+            <a href="file:///C:/Users/ethan/Documents/ITC/PreCourse/Abbou_Ethan_ITCPrecourse/pages/contact.html">CONTACT</a></li>
+        </ul>
+    </head>
+    <section class="form">
+      <div class="div-form-image">
+        <img class="form-image" src="file:///C:/Users/ethan/Documents/ITC/PreCourse/Abbou_Ethan_ITCPrecourse/images/Forms.gif" alt="ilustration-form"/>
+      </div>
+      <div class="div-form">
+        <form>
+          <label class="text-form" for="first_name">First Name</label>
+          <input placeholder="Your Name" id="first_name" name="first_name">
+        </form>
+        <form>
+          <label for="last_name">Last Name</label>
+          <input placeholder="Last Name" id="last_name" name="first_name">
+        </form>
+        <form action="?" method="POST">
+          <label for="email">Mail</label>
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+        </form>
+        <form>
+          <label for="message">Add your comment</label>
+          <textarea id="message" name="message" placeholder="Your Comment" style="height:200px"></textarea>
+        </form>
+        <form action="?" method="POST">
+          <label class="drop-down-list" for="hour">Which one is the best hour to contact you ?</label>
+            <select name="hour" id="hour">
+              <option value="8H">8H</option>
+              <option value="9H" >9H</option>
+              <option value="10H">10H</option>
+              <option value="11H">11H</option>
+              <option value="12H">12H</option>
+              <option value="13H">13H</option>
+              <option value="14H">14H</option>
+              <option value="15H">15H</option>
+              <option value="16H">16H</option>
+              <option value="17H">17H</option>
+          </select>
+        </form>
+        <button id="button-form" class="button-form" onclick="sendForm()">SEND</button>
+      </div>
+    </section>
+   </body>
+</html>
